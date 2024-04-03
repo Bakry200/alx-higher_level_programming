@@ -7,4 +7,4 @@ def safe_print_integer_err(value):
     except Exception as e:
         print("Exception:", e, file=sys.stderr)
         is_int = False
-        return is_int
+    return is_int
