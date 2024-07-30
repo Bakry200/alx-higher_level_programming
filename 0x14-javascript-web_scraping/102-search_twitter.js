@@ -44,3 +44,4 @@ function search (bearer) {
       tweets.forEach((t) => console.log(`[${t.id}] ${t.text} by ${t.user.name}`));
     }
   });
+}
